@@ -53,12 +53,20 @@ function App() {
       <div className="playground">
         <div className="user">
           <h1>User choice is:{userChoice} </h1>
-          <img className="user-hand" src={`../img/${userChoice}.png`} />
+          <img
+            className="user-hand"
+            src={`../img/${userChoice}.png`}
+            alt={"img"}
+          />
         </div>
 
         <div className="computer">
           <h1>Computer choice is:{computerChoice}</h1>
-          <img className="computer-hand" src={`../img/${computerChoice}.png`} />
+          <img
+            className="computer-hand"
+            src={`../img/${computerChoice}.png`}
+            alt={"img"}
+          />
         </div>
       </div>
       <div className="user-choice">
